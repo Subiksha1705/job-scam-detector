@@ -16,3 +16,7 @@ node_modules/
 
 # Frontend dependencies
 frontend/node_modules/
+# Prevent accidental Node files in backend
+backend/package.json
+backend/package-lock.json
+backend/node_modules/
